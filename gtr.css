@@ -1,0 +1,273 @@
+body{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* position: absolute; */
+    margin: 0;
+}
+.cont .s{
+    height: 170px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+    top: -25px;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(20, 20, 20, 0.815);
+}
+.bar{
+    height: 100px;
+    width: 45%;
+    /* background-color: transparent; */
+    display: flex;
+    position: fixed;
+    top: -30px;
+    right: 0%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+.h{
+    height: 35px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 4px white solid;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 8px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.h:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+.cont0 img{
+    height: 100vh;
+    width: 100%;
+}
+.contoo p{
+    height: 250px;
+    width: 750px;
+    background-color: transparent;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 23%;
+    margin-top: -10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 10px;
+}
+.contoo1{
+    padding-bottom: 30px;
+}
+.cont1{
+    height: 100vh;
+    width: 100%;
+}
+.cont1 video{
+    width: 100%;
+    margin-top: -70px;
+}
+.cont2 img{
+    height: 100vh;
+    width: 100%; 
+}
+.mody{
+    height: 165px;
+    width: 410px;
+    background-color: rgb(183, 183, 183);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 63%;
+    margin-top: -53%;
+
+}
+.mody p{
+    color: rgb(40, 40, 40);
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+.m1{
+    position: relative;
+    top: -30px;
+}
+.m2{
+    position: relative;
+    top: -25px;
+}
+/* .modys{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    margin-left: 1%;
+}
+.modys .eng1{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 2%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng2{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 24%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng3{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 46%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng4{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 68%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+} */
+.modytxt{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.modytxt p{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.modytxt1{
+    font-size: 5px;
+}
+
+.cont3 img{
+    height: 100vh;
+    width: 100%;
+}
+.cont3 .modz{
+    height: 190px;
+    width: 410px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+    margin-top: -54%;
+
+}
+.modz pre{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+.modzs{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.modzs pre{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 33%;
+    padding-top: 3%;
+    color: white;
+    
+}
+.modzs .best{
+    height: 220px;
+    width: 450px;
+    background-color: rgb(32, 2, 42);
+    display: flex;
+    position: absolute;
+    left: 8%;
+}
+
+.cont4 img{
+    height: 100vh;
+    width: 100%;
+}
+.modw{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.modw pre{
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-top: -3%;
+}
+.modw h1{
+    color: white;
+}
+.modwct{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 15%;
+    
+}
+.modwct p{
+    color: white;
+}
+.ctxt{
+    height: 50px;
+    width: 350px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
